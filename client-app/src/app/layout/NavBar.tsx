@@ -2,10 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Button, Container, Menu } from 'semantic-ui-react';
 
-interface Props {
-    openForm: () => void;
-}
-
 export default function NavBar() {
     return (
         <Menu inverted fixed='top'>
